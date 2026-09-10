@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Activity 4 - About Me Portal</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #ffb6c1;
+      color: #333333;
+      padding: 20px;
+      text-align: center;
+    }
+
+    /* Profile Image Styling */
+    .profile-img {
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      object-fit: cover;
+      display: block;
+      margin: 20px auto;
+    }
+
+    /* Text Alignment and Container */
+    p {
+      max-width: 600px;
+      margin: 10px auto;
+      text-align: center;
+      line-height: 1.6;
+    }
+
+    /* Activity 4 Required: <ul> and <li> Navigation Menu */
+    .social-nav {
+      list-style-type: none;
+      padding: 0;
+      margin-top: 30px;
+      display: flex;
+      justify-content: center;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+
+    .social-nav li a {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background-color: #ffffff;
+      color: #333333;
+      padding: 10px 16px;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 20px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      transition: background-color 0.2s ease;
+    }
+
+    .social-nav li a:hover {
+      background-color: #f0f0f0;
+    }
+
+    /* Graphical Icons Styling */
+    .social-nav img {
+      width: 18px;
+      height: 18px;
+    }
+  </style>
+</head>
+<body>
+
+  <img src="profile.jpg" alt="Profile Picture" class="profile-img">
+
+  <h2>Mikaella Bacala</h2>
+
+  <p>I am Mikaella Bacala, currently studying and pursuing my degree in Information Technology.</p>
+  <p>I have a strong interest in exploring modern hardware specs for gaming and productivity performance.</p>
+  <p>In my free time, I enjoy playing sports and learning new programming techniques to expand my skills.</p>
+
+  <!-- Annex A Requirement: Functional <ul> and <li> menu linked to 5 profiles with icons -->
+  <ul class="social-nav">
+    <li>
+      <a href="https://github.com" target="_blank">
+        <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="GitHub"> GitHub
+      </a>
+    </li>
+    <li>
+      <a href="https://linkedin.com" target="_blank">
+        <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn"> LinkedIn
+      </a>
+    </li>
+    <li>
+      <a href="https://facebook.com" target="_blank">
+        <img src="https://cdn-icons-png.flaticon.com/512/733/733547.png" alt="Facebook"> Facebook
+      </a>
+    </li>
+    <li>
+      <a href="https://instagram.com" target="_blank">
+        <img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png" alt="Instagram"> Instagram
+      </a>
+    </li>
+    <li>
+      <a href="https://x.com" target="_blank">
+        <img src="https://cdn-icons-png.flaticon.com/512/5969/5969020.png" alt="X"> Twitter/X
+      </a>
+    </li>
+  </ul>
+
+</body>
+</html>
